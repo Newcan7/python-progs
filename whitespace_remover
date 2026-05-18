@@ -1,0 +1,5 @@
+data = ["Hello", "   ", "", "Python", "\t", "World"]
+clean_data=list(filter(lambda x : not x.isspace(),data))
+print(clean_data)
+
+
